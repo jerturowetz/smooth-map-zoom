@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Smooth map zoom</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
+    <link href='assets/css/main.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+    <div id='map' class="map-container"></div>
+    <div class="map-controls">
+        <label for="zoomLevel" class="map-controls__label" >Zoom Level (1-15)</label>
+        <input id="zoomLevel" type="text" class="map-controls__input" />
+    </div>
+    <script src='assets/js/map-functions.js'></script>
+
+</body>
+</html>

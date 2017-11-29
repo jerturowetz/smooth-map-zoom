@@ -1,0 +1,11 @@
+{
+  "name": "smooth-map-zoom",
+  "description": "Smooth map animated zoom for brother animation",
+  "repository": "git@bitbucket.org:BKDSN/smooth-map-zoom.git",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "stylelint": "^8.1.1"
+  }
+}
